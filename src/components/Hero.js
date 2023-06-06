@@ -7,17 +7,17 @@ const Hero = () => {
     const SOCIAL = [
         {
             id: 1,
-            link: 'https://Github.com',
+            link: 'https://Github.com/ashen99',
             icon: <FaGithub />
         },
         {
             id: 2,
-            link: 'https://facebook.com',
+            link: 'https://www.facebook.com/ashane.perera.1/',
             icon: <FaFacebook />
         },
         {
             id: 3,
-            link: 'https://linkedin.com',
+            link: 'linkedin.com/in/ashen-perera-834747195',
             icon: <FaLinkedin />
         },
     ];

@@ -10,12 +10,12 @@ const Contact = () => {
     const SOCIAL = [
         {
             id: 1,
-            link: 'https://facebook.com',
+            link: 'https://www.facebook.com/ashane.perera.1/',
             icon: <FaFacebook />
         },
         {
             id: 2,
-            link: 'https://linkedin.com',
+            link: 'linkedin.com/in/ashen-perera-834747195',
             icon: <FaLinkedin />
         },
         {

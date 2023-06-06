@@ -10,23 +10,13 @@ const Services = () => {
     const services = [
         {
             id:1,
-            image: commerce,
-            title: "Ecommerce Website"
-        },
-        {
-            id:1,
             image: web,
             title: "Web Development"
         },
         {
-            id:1,
+            id:2,
             image: mobile,
             title: "Mobile Development"
-        },
-        {
-            id:1,
-            image: research,
-            title: "Research and Development"
         },
     ]
 
@@ -43,9 +33,6 @@ const Services = () => {
                     </div>
                 ))}
             </div>
-
-
-
         </Section>
     )
 }
