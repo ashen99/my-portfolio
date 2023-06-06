@@ -1,8 +1,6 @@
 import React from 'react'
 import Section from './common/Section'
 
-import commerce from '../assets/commerce.png'
-import research from '../assets/research.png'
 import mobile from '../assets/mobile.png'
 import web from '../assets/web.png'
 
