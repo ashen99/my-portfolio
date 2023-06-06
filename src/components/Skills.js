@@ -11,7 +11,7 @@ const Skills = () => {
         >
             <div className='grid gap-10 lg:grid-cols-3'>
                 <div>
-                    <h3 className='font-semibold uppercase pb-4 text-lg'>Forntend Web</h3>
+                    <h3 className='font-semibold uppercase pb-4 text-lg'>frontend Web</h3>
                     <div className='grid justify-items-start gap-4'>
                         <div className='flex justify-center gap-2'>
                             <FaReact className='animate-headShake text-2xl' />
