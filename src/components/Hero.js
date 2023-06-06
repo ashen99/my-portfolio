@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaFacebook, FaLinkedin, FaArrowDown } from 'react-icons/fa'
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar1.png'
 
 const Hero = () => {
 

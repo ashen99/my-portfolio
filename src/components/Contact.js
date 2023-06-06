@@ -2,7 +2,7 @@ import React from 'react'
 import Section from './common/Section'
 import contact from '../assets/mobile.png'
 
-import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
 
 const Contact = () => {
@@ -10,21 +10,16 @@ const Contact = () => {
     const SOCIAL = [
         {
             id: 1,
-            link: 'https://twitter.com',
-            icon: <FaTwitter />
-        },
-        {
-            id: 2,
             link: 'https://facebook.com',
             icon: <FaFacebook />
         },
         {
-            id: 3,
+            id: 2,
             link: 'https://linkedin.com',
             icon: <FaLinkedin />
         },
         {
-            id: 4,
+            id: 3,
             link: 'mailto:ashenperera51@yahoo.com',
             icon: <HiMail />
         },

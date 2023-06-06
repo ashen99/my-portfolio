@@ -6,10 +6,11 @@ import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 function App() {
 
-  const [ darkMode , setDarkMode ] = useState(true);
+  const [ darkMode , setDarkMode ] = useState(false);
 
   return (
     <div className={darkMode && "dark"}>
@@ -18,6 +19,7 @@ function App() {
       <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
         <Hero />
         <Services />
+        <Skills />
         <Portfolio />
         <Testimonials />
         <Contact />
