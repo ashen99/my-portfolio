@@ -17,7 +17,7 @@ const Hero = () => {
         },
         {
             id: 3,
-            link: 'linkedin.com/in/ashen-perera-834747195',
+            link: 'https://www.linkedin.com/in/ashen-perera-834747195/',
             icon: <FaLinkedin />
         },
     ];
