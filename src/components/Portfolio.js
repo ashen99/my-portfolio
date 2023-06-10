@@ -8,6 +8,7 @@ import p2 from '../assets/projects/premier_league.png'
 import p3 from '../assets/projects/weatherios.png'
 import p4 from '../assets/projects/senvoix.jpg'
 import p5 from '../assets/projects/hulu.jpg'
+import p6 from '../assets/projects/e-learning.png'
 
 
 const Portfolio = () => {
@@ -47,6 +48,13 @@ const Portfolio = () => {
             title: 'Hulu Clone',
             github: "https://github.com/ashen99",
             demo: "https://github.com/ashen99"
+        },
+        {
+            id: 6,
+            image: p6,
+            title: 'E-Learning Site',
+            github: "https://github.com/ashen99/E-learning-site",
+            demo: "https://e-learning-site-nu.vercel.app/"
         },
     ]
 
