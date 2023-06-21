@@ -1,7 +1,7 @@
 import React from 'react'
 import Section from './common/Section'
 
-import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa'
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaBootstrap } from 'react-icons/fa'
 import { SiJavascript, SiTailwindcss, SiMui, SiExpress, SiFlask, SiMongodb, SiFirebase, SiMysql } from 'react-icons/si'
 
 const Skills = () => {
@@ -36,6 +36,10 @@ const Skills = () => {
                         <div className='flex justify-center gap-2'>
                             <SiMui className='animate-headShake text-2xl' />
                             <p>Material UI</p>
+                        </div>
+                        <div className='flex justify-center gap-2'>
+                            <FaBootstrap className='animate-headShake text-2xl' />
+                            <p>Bootstrap</p>
                         </div>
                     </div>
                 </div>

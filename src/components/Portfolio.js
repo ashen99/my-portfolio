@@ -9,6 +9,7 @@ import p3 from '../assets/projects/weatherios.png'
 import p4 from '../assets/projects/senvoix.jpg'
 import p5 from '../assets/projects/hulu.jpg'
 import p6 from '../assets/projects/e-learning.png'
+import p7 from '../assets/projects/cloud-management.png'
 
 
 const Portfolio = () => {
@@ -55,6 +56,13 @@ const Portfolio = () => {
             title: 'E-Learning Site',
             github: "https://github.com/ashen99/E-learning-site",
             demo: "https://e-learning-site-nu.vercel.app/"
+        },
+        {
+            id: 7,
+            image: p7,
+            title: 'Cloud Management',
+            github: "https://github.com/ashen99/Cloud-Management-Site",
+            demo: "https://cloud-management-site.vercel.app/"
         },
     ]
 
