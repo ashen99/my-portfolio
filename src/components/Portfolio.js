@@ -20,49 +20,56 @@ const Portfolio = () => {
             image: p1,
             title: 'Dream XV',
             github: "https://github.com/Ranul00/DreamXV.git",
-            demo: "https://github.com/Ranul00/DreamXV.git"
+            demo: "https://github.com/Ranul00/DreamXV.git",
+            active: false
         },
         {
             id: 2,
             image: p2,
             title: 'Premier Leauge Manager',
-            github: "https://github.com/ashen99",
-            demo: "https://github.com/ashen99"
+            github: "https://github.com/ashen99/PremierLeageManager",
+            demo: "https://github.com/ashen99/PremierLeageManager",
+            active: false,
         },
         {
             id: 3,
             image: p3,
             title: 'Weather App',
             github: "https://github.com/ashen99",
-            demo: "https://github.com/ashen99"
+            demo: "https://github.com/ashen99",
+            active: false,
         },
         {
             id: 4,
             image: p4,
             title: 'SenVoix',
             github: "https://github.com/ashen99",
-            demo: "https://github.com/ashen99"
+            demo: "https://github.com/ashen99",
+            active: false
         },
         {
             id: 5,
             image: p5,
             title: 'Hulu Clone',
-            github: "https://github.com/ashen99",
-            demo: "https://github.com/ashen99"
+            github: "https://github.com/ashen99/Hulu-Clone",
+            demo: "https://github.com/ashen99/Hulu-Clone",
+            active: false,
         },
         {
             id: 6,
             image: p6,
             title: 'E-Learning Site',
             github: "https://github.com/ashen99/E-learning-site",
-            demo: "https://e-learning-site-nu.vercel.app/"
+            demo: "https://e-learning-site-nu.vercel.app/",
+            active: true
         },
         {
             id: 7,
             image: p7,
             title: 'Cloud Management',
             github: "https://github.com/ashen99/Cloud-Management-Site",
-            demo: "https://cloud-management-site.vercel.app/"
+            demo: "https://cloud-management-site.vercel.app/",
+            active: true
         },
     ]
 
@@ -80,7 +87,7 @@ const Portfolio = () => {
                         <a className='text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110' href={github} target='_blank' rel='noopener noreferrer'>
                             <FaGithub />
                         </a>
-                        <a className='text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110' href={demo} target='_blank' rel='noopener noreferrer'>
+                        <a className='text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110' href={demo} target='_blank' rel='noopener noreferrer' >
                             <FaExternalLinkSquareAlt />
                         </a>
                     </div>
