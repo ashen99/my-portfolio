@@ -10,7 +10,7 @@ import p4 from "../assets/projects/senvoix.jpg";
 import p5 from "../assets/projects/hulu.jpg";
 import p6 from "../assets/projects/e-learning.png";
 import p7 from "../assets/projects/cloud-management.png";
-import p7 from "../assets/projects/carserviceapp.png";
+import p8 from "../assets/projects/carserviceapp.png";
 
 const Portfolio = () => {
   const projects = [
