@@ -73,7 +73,7 @@ const Portfolio = () => {
     {
       id: 8,
       image: p8,
-      title: "Car Service App",
+      title: "Car service app",
       github: "https://github.com/ashen99/carserviceapp.git",
       demo: "https://github.com/ashen99/carserviceapp.git",
       active: true,
